@@ -9,7 +9,7 @@ function fetchRank(node, title, authorA, year, site) {
   const version = manifest.version;
 
   let query_url =
-    "https://dblp.org/search/publ/api?q=" +
+    "https://dblp.uni-trier.de/search/publ/api?q=" +
     encodeURIComponent(title + "  author:" + authorA) +
     "&format=json&app=CCFrank4dblp_" +
     version;
